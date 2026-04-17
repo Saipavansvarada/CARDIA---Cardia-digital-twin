@@ -1,0 +1,24 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Models (too large for GitHub)
+models/*.pkl
+models/*.h5
+
+# Database
+data/*.db
+data/*.csv
+
+# Node
+node_modules/
+build/
+
+# Environment
+.env
+*.env
+
+# Arduino
+*.hex
