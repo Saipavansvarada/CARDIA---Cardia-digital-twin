@@ -1,7 +1,7 @@
 """
 CARDIA — RL Agent (Strategy Recommender)
 Picks the best training strategy based on current cardiac state.
-Uses rule-based logic for hackathon (stable + fast).
+Uses rule-based logic (stable + fast).
 """
 
 from config import STRATEGIES, SAFETY, USER

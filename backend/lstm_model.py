@@ -1,8 +1,7 @@
 """
 CARDIA — LSTM Forecast Model
 Predicts next 7 days of HR + HRV + CES trends.
-Uses Keras (simpler than PyTorch, already installed).
-Output: models/lstm_model.h5
+Uses Keras (simpler version than PyTorch).
 """
 
 import numpy as np
@@ -156,7 +155,6 @@ def forecast_next_days(recent_readings: list, days: int = 7):
         return result
 
     except Exception as e:
-        # Fallback: return flat forecast based on current values
         if recent_readings:
             last = recent_readings[-1]
         else:

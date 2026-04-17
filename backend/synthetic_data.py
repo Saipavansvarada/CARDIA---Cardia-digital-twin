@@ -1,8 +1,6 @@
 """
 CARDIA — Synthetic Data Generator
 Generates realistic cardiac training data for all ML models.
-Run this FIRST before training any models.
-Output: data/cardiac_data.csv
 """
 
 import numpy as np

@@ -1,12 +1,6 @@
 """
 CARDIA — PhysioNet Data Parser
-Reads MIT-BIH real cardiac data + combines with synthetic data.
-Output: data/combined_data.csv — used to train ALL ML models.
-
-Before running:
-1. pip install wfdb
-2. Download MIT-BIH from physionet.org/content/mitdb/1.0.0/
-3. Extract into: data/physionet/
+Reads MIT-BIH real cardiac data + combines with synthetic data. used to train ALL ML models.
 """
 
 import numpy as np

@@ -2,7 +2,6 @@
 CARDIA — Ensemble CES Scoring Model
 XGBoost + Random Forest + LightGBM voting together.
 3 models agreeing = more reliable CES score.
-Output: models/ces_ensemble.pkl
 """
 
 import numpy as np

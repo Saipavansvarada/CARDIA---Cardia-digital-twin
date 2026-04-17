@@ -1,6 +1,6 @@
 """
 CARDIA — FastAPI Main Server
-Run: uvicorn main:app --reload --port 8000
+Use this to Run main server: uvicorn main:app --reload --port 8000
 """
 
 from fastapi import FastAPI

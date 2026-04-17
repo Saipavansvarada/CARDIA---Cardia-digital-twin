@@ -2,7 +2,6 @@
 CARDIA — Isolation Forest Safety Detector
 Detects dangerous cardiac anomalies.
 Fires: SAFE / CAUTION / DANGER alerts.
-Output: models/isolation_forest.pkl
 """
 
 import numpy as np
